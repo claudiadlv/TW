@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+
+    <style>
+        * {
+            margin: 0;
+        }
+
+        nav {
+            margin-left: 5%;
+            margin-right: 5%;
+            border: 5px solid black;
+        }
+
+        p {
+            box-sizing: border-box;
+            display: inline-block;
+        }
+
+        p.primero {
+            margin-left: calc(5% + 20px);
+            border: 5px solid red;
+            width: calc(20% - 20px);
+            text-align: left;
+        }
+
+        p.medio {
+            border: 5px solid lightgreen;
+            width: calc(60% - 100px);
+            text-align: center;
+        }
+
+        p.final {
+            margin-right: calc(5% + 20px);
+            border: 5px solid blue;
+            width: calc(20% - 20px);
+            text-align: right;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <p class="primero">Anterior</p>
+        <p class="medio">Medio</p>
+        <p class="final">Siguiente</p>
+    </nav>
+</body>
+
+</html>
